@@ -1,4 +1,4 @@
-const url = 'http://localhost:8080';
+const url = 'https://testtt113231.herokuapp.com';
 
 var curConservationId;
 var conservations = document.querySelectorAll('.conservation');
@@ -6,7 +6,7 @@ var conservations = document.querySelectorAll('.conservation');
 function connect() {
 //	var socket = new SockJS(url + '/mess');
 
-	var socket = new SockJS('https://testtt113231.herokuapp.com/?fbclid=IwAR3jVMoLZ2uXa4viSBtl--qA6We5qSicUuJ9u89LOYCBK2aAzVPOoj7OdCU/mess');
+	var socket = new SockJS(url + '/mess');
 
 
      stompClient = Stomp.over(socket);
