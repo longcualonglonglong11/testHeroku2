@@ -1,4 +1,4 @@
-const url = 'https://testtt113231.herokuapp.com';
+const url = 'https://conservation1104.herokuapp.com';
 
 var curConservationId;
 var conservations = document.querySelectorAll('.conservation');
